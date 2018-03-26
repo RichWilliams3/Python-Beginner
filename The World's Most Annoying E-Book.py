@@ -1,5 +1,4 @@
 #The World's Most Annoying E-Book
-#Created by Rich Williams
 
 #Concepts Used:
     #print()
