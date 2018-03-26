@@ -147,14 +147,3 @@ input("\nDo you really want to continue?")
 
 print("\nThen go buy a Kindle")
 input("\n\nPress Enter to Exit")
-
-
-
-
-
-
-
-
-
-
-
