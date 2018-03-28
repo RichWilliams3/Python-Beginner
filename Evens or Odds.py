@@ -78,4 +78,4 @@ while stay != "N":
 print("\nFinal Score:")
 print("\nUser: " + str(user_score) + "\tComputer: " +
       str(comp_score))
-print("\n\nThanks for Playing!")
+input("\n\nThanks for Playing! Press Enter to Exit")
