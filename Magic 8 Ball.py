@@ -16,6 +16,7 @@
     #random module
     #if/elif/else operators
 
+#Imports    
 import random
 
 print("\n\tAsk the All-Knowing Magic 8 Ball!")
