@@ -41,9 +41,15 @@
         #AKA new encryption, new quip, etc.
     #If user ends game, total score from all rounds is printed
     #Used quips tracked. If all quips used, game ends automatically.
-#Wish List:
-    #High score storage system
-    #Timer?
+
+#Concepts Used:
+#Tuples
+#Lists
+#random.choice()
+#for loops
+#in operator
+#continue
+#len()
 
 #1. Title Card
 print("\n\t\t\tC  R  Y  P  T  O  Q  U  I  P")
@@ -57,12 +63,12 @@ input("\nPress Enter to Begin")
 import random
 
 #2. Code Bank
-code_bank = ("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L",
+CODE_BANK = ("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L",
              "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X",
              "Y", "Z")
 
 #3. Quip Bank
-quip_bank = ("IF PATRICK IS IN A BAD MOOD, WOULD HE BE A KRABBY PATTY?",
+QUIP_BANK = ("IF PATRICK IS IN A BAD MOOD, WOULD HE BE A KRABBY PATTY?",
              "AN ESKIMO WALKS INTO THE STORE. HE'S A PRETTY COOL CUSTOMER.",
              "IF YOU BUY A FISH IN POLAND, WAS IT CAUGHT BY A FISHING POLE?",
              "EARN FAVOR WITH CAPRICORN FOR A CURRIED GOAT",
